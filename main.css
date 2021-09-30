@@ -58,8 +58,13 @@ body {
 }
 
 .btn {
-  background: #ffc915;
-  color: #292929;
+  background: #142cd6;
+  color: #fff;
+  font-weight: 600;
+}
+
+.btn:hover {
+  color: yellow;
 }
 
 footer {
