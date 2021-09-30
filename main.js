@@ -26,7 +26,10 @@ function getRandomXcuse() {
         "I'll start from tomorrow",
         "Internet was down",
         "Arthik istithi theek na hamari",
-        "Chacha, Vidhayak nhi h hmare"
+        "Chacha, Vidhayak nhi h hmare",
+        "My cats having an abortion. I need to be there for HIM.",
+        "Sorry, my mom said No..",
+        "I don't feel smart today.",
     ];
 
     var randomXcuse = Math.floor(Math.random() * xcuses.length);
