@@ -12,6 +12,20 @@ body {
   background-repeat: no-repeat;
 }
 
+.xcuse-heading{
+  font-family: "Merriweather", serif;
+  text-align: center;
+  width: 60%;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.xcuse-heading h1{
+  padding: 20px;
+}
+
 .xcuse-main-box {
   width: 60%;
   min-height: 250px;
@@ -70,6 +84,20 @@ body {
 footer {
   position: absolute;
   bottom: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.footer-icon{
+  padding: 20px;
+}
+
+@media (max-width: 500px){
+  .xcuse-heading{
+    width: 90%;
+    top: 25%;
+  }
 }
 
 @media (max-width: 768px) {
