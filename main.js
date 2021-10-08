@@ -30,6 +30,9 @@ function getRandomXcuse() {
         "My cats having an abortion. I need to be there for HIM.",
         "Sorry, my mom said No..",
         "I don't feel smart today.",
+        "This is new to me.", 
+        "I don't have enough skills", 
+        "I'm not good enough to complete this challenge", 
     ];
 
     var randomXcuse = Math.floor(Math.random() * xcuses.length);
