@@ -55,7 +55,14 @@ function getRandomXcuse() {
         "I have a new puppy and I need to play with him.",
         "There’s a bird in my house – I don’t know what to do.",
         "My cat has hiccups and I can’t leave her.",
-        "I accidentally got on a plane."
+        "I accidentally got on a plane.",
+        "Because I didn’t have a driver’s license.",
+        "My fortune teller advised against saying more.",
+        "I have a court hearing at the same because I stole the last cookie. What a coincidence?!",
+        "I do not usually go out on days that end with the letter 'y'. Sorry, personal preference.",
+        "People are blaming me for World War III, and I am trying to keep the peace.",
+        "Unfortunately, there is a disturbance in the force, and it is not with me right now. I never go anywhere without the force—Skywalker advises strongly against it"
+
     ];
 
     var randomXcuse = Math.floor(Math.random() * xcuses.length);
